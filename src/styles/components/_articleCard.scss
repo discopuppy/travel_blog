@@ -1,0 +1,33 @@
+.articleCard__background {
+    //background-image: url("/images/background7.jpg");
+    height: 40rem;
+    display: flex;
+    justify-content: space-between;
+    background-size: cover;
+}
+
+.articleCard__content {
+    max-width: 30rem;
+    padding: 2rem;
+    //background-color: rgba(180, 211, 237, 0.4);//#76AFDE
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;//1%;
+    border: 1px black solid;
+
+    h1 {
+        margin-top: 1px;
+        margin-bottom: 0;
+        color: black;
+        font-weight: 300;
+    }
+    
+    p {
+        margin-top: 12px;
+        color: black;
+        //font-weight: 100;
+    }
+}
+
+.articleCard__title {
+    color: black;
+}

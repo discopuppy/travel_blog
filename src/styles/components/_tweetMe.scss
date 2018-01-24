@@ -1,0 +1,40 @@
+.tweetMe__background {
+    background-color: #00A2EC;
+    opacity: .8;
+    //padding-top: 2.5rem;
+    //padding-bottom: 2.5rem;
+    //border: 1px solid black;
+    //margin-bottom: 0;
+}
+
+.tweetMe__row {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 4rem;
+    //border: 1px solid white;
+    //border: 1px black solid;
+}
+
+.tweetMe__img {
+    margin-right: 4rem;
+    height: 275px;
+    width: 290px;
+    //border: 1px black solid;
+}
+
+.tweetMe__text {
+    color: white;
+    text-align: center;
+    //border: 1px black solid;
+    max-width: 600px;
+    margin: 3rem 0;
+    //border: 1px black solid;
+
+    h1 {
+        font-size: 300%;
+    }
+
+    p {
+        font-size: 200%;
+    }
+}

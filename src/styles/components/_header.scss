@@ -1,0 +1,75 @@
+/* .header__background {
+    height: 10rem;
+    display: flex;
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+} */
+
+.header__container {
+    display: flex;
+    //justify-content: space-around;
+    margin: 1rem 2rem 1rem 2rem;
+    //height: 4rem;
+}
+
+.header__menuContainer {
+    //padding-top: 1rem;
+    width: 20%;
+    //border: 1px black solid;
+}
+
+.header__menu {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.popover {
+    position: relative;
+    //display: inline-block;
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        &:hover {
+            background-color: #f1f1f1
+        }
+    }
+}
+
+.header__logo {
+    text-align: center;
+    //align-content: center;
+    width:60%;
+    font-family: Papyrus, fantasy;
+	font-size: 44px;
+	font-style: normal;
+	font-variant: normal;
+    font-weight: 500;
+    padding-top: 1rem;
+    //color: blue;
+    //border: 1px black solid;
+
+}
+
+.header__socialWidgets {
+    text-align: right;
+    //padding-left: 30px;
+    //padding-right: 30px;
+    padding-top: 2rem;
+    //border-left: 1px solid black;
+    width: 20%;
+    //border: 1px black solid;
+}
+
+.socialWidget {
+    margin: 3px;
+}

@@ -1,0 +1,36 @@
+.aboutMeCard__row {
+    display: flex;
+    justify-content: space-around;
+    //border: 1px black solid;
+}
+
+.aboutMeCard__text {
+    text-align: center;
+    //border: 1px black solid;
+    max-width: 400px;
+    margin: 3rem 0;
+
+    .top {
+        margin-top: 45px;
+        opacity: .6;
+    }
+
+    h2 {
+        font-weight: 300;
+    }
+
+    p {
+        opacity: .7;
+    }
+
+    .bottom {
+        //margin-bottom: 1rem;
+        opacity: .6;
+    }
+}
+
+.aboutMeCard__img {
+    margin-left: 4rem;
+    height: 350px;
+    width: 465px;
+}

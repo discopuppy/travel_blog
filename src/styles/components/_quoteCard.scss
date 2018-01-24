@@ -1,0 +1,36 @@
+.quoteCard__container {
+    margin: 4rem 4rem;
+    display: flex;
+    justify-content: space-around;
+    //border: 1px black solid;
+}
+
+.quote__container {
+    //border: 1px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    opacity: .7;
+    
+    p {
+        margin: 6px 0 6px 0;
+    }
+
+    p.quote__author {
+        margin-top: 20px;
+    }
+}
+
+.img__container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.quote__pic {
+    width: 362px;
+    height: 545px;
+
+    // .665
+}
