@@ -1,0 +1,41 @@
+.articles__container {
+    margin: 4rem 1rem;
+    //border: 1px black solid;
+}
+
+.articles__row {
+    //border: 1px black solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.articles__card {
+    //border: 1px black solid;
+    max-width: 400px;
+    max-height: 400px;
+    text-align: center;
+    margin: 0 1rem 2rem 1rem;
+}
+
+.articles__text {
+    //border: 1px black solid;
+    color: black;
+    margin-top: 1rem;
+    font-size: 150%;
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
+    span {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.articles__img {
+    display: block;
+    //max-height: 200px;
+    max-width: 100%;
+    //width: auto;
+    height: auto;
+}

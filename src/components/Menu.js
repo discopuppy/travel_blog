@@ -48,13 +48,13 @@ class Menu extends React.Component {
           </h3>
           {this.state.popupVisible && (
             <div className="popover">
-              <Link to="/">Home</Link>
-              <Link to="/articles">Articles</Link>
-              <a href="#">Inspirting Quotes</a>
-              <a href="#">Best Pics</a>
-              <a href="#">About Me</a>
-              <a href="/video.html">Video</a>
-              <a href="#">Contact Zac</a>
+              <Link to="/" onClick={this.handleClick}>Home</Link>
+              <Link to="/articles" onClick={this.handleClick}>Articles</Link>
+              <Link to="/" onClick={this.handleClick}>Inspirting Quotes</Link>
+              <Link to="/" onClick={this.handleClick}>Best Pics</Link>
+              <Link to="/" onClick={this.handleClick}>About Me</Link>
+              <a href="/video.html" onClick={this.handleClick}>Video</a>
+              <Link to="/" onClick={this.handleClick}>Contact Zac</Link>
            </div>
            )}
         </div>
