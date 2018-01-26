@@ -1,7 +1,32 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CardGroup = () => (
-    <div className="content__container">
+    <div className="articles__container">
+        <h1 style={{ marginLeft: '2rem', fontFamily: 'Garamond, serif' }}>Recent Articles</h1>
+        <div className="articles__row">
+            <div className="articles__card">
+                <Link to="/construction"><img src="/images/card1.jpg" className="articles__img" width="4032" height="3024" /></Link>
+                <div className="articles__text">
+                    <Link to="/construction" style={{ textDecoration: 'none', color: 'black' }}><span>Trek to Neuschwanstein</span></Link>
+                </div>
+            </div>
+            <div className="articles__card">
+                <Link to="/construction"><img src="/images/card5.jpg" className="articles__img" width="4032" height="3024" /></Link>
+                <div className="articles__text">
+                    <Link to="/construction" style={{ textDecoration: 'none', color: 'black' }}><span>Roman Holiday</span></Link>
+                </div>
+            </div>
+            <div className="articles__card">
+                <Link to="/construction"><img src="/images/card3.jpg" className="articles__img" width="4032" height="3024"/></Link>
+                <div className="articles__text">
+                    <Link to="/construction" style={{ textDecoration: 'none', color: 'black' }}><span>Paris for the single</span></Link>
+                </div>
+            </div>
+        </div>
+        <Link to="/articles" style={{ float: 'right', fontSize: '75%', marginRight: '2rem' }}>More articles</Link>
+    </div>
+    /*<div className="content__container">
         <div className="card__row">
             <div className="card__container">
                 <img className="card__image card1"></img>
@@ -15,8 +40,6 @@ const CardGroup = () => (
                 <div>
                     <h2>Roman Holiday</h2>
                     <p>Tips on getting around Rome during the busy season.</p>
-                    {/* <h2>Ascending the mountain</h2>
-                    <p>View of the Matterhorn, truly a sight to behold...</p>*/}
                 </div>
             </div>
             <div className="card__container">
@@ -27,23 +50,7 @@ const CardGroup = () => (
                 </div>
             </div>
         </div>
-        {/*<div className="card__row">
-            <div className="card__container">
-                <div className="card__image card3"></div>
-                <div>
-                    <h2>Paris for the single</h2>
-                    <p>A non-romantic guide to the city of love...</p>
-                </div>
-            </div>
-            <div className="card__container">
-                <div className="card__image card4"></div>
-                <div>
-                    <h2>Budapest and Beyond</h2>
-                    <p>A quick journey through Budapest, Vienna, and Prague.</p>
-                </div>
-            </div>
-        </div>*/}
-    </div>
+    </div>*/
 );
 
 export default CardGroup;

@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import ArticlesPage from '../components/ArticlesPage';
 import Footer from '../components/Footer';
 import NotFoundPage from '../components/NotFoundPage';
+import ConstructionPage from '../components/ConstructionPage';
 
 export const history = createHistory();
 
@@ -17,6 +18,7 @@ const AppRouter = () => ( // Client-Side Routing
             <Switch>
                 <Route path="/" component={HomePage} exact={true}/>
                 <Route path="/articles" component={ArticlesPage} />
+                <Route path="/construction"component={ConstructionPage}/>
                 <Route component={NotFoundPage}/>
             </Switch>
             <Footer />
