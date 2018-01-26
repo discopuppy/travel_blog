@@ -7,9 +7,9 @@ const ArticlesPage = () => (
         <div className="articles__container">
             <div className="articles__row">
                 <div className="articles__card">
-                    <Link to="/construction"><img src="/images/paris.jpg" className="articles__img" width="4032" height="3024" /></Link>
+                    <Link to="/article1"><img src="/images/paris.jpg" className="articles__img" width="4032" height="3024" /></Link>
                     <div className="articles__text">
-                        <Link to="/construction" style={{ textDecoration: 'none', color: 'black' }}><span>Euro Trip</span></Link>
+                        <Link to="/article1" style={{ textDecoration: 'none', color: 'black' }}><span>Euro Trip</span></Link>
                     </div>
                 </div>
                 <div className="articles__card">

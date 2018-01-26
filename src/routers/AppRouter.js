@@ -7,6 +7,7 @@ import ArticlesPage from '../components/ArticlesPage';
 import Footer from '../components/Footer';
 import NotFoundPage from '../components/NotFoundPage';
 import ConstructionPage from '../components/ConstructionPage';
+import Article1 from '../components/articles/Article1';
 
 export const history = createHistory();
 
@@ -19,6 +20,7 @@ const AppRouter = () => ( // Client-Side Routing
                 <Route path="/" component={HomePage} exact={true}/>
                 <Route path="/articles" component={ArticlesPage} />
                 <Route path="/construction"component={ConstructionPage}/>
+                <Route path="/article1"component={Article1}/>
                 <Route component={NotFoundPage}/>
             </Switch>
             <Footer />
