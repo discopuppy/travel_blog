@@ -22,5 +22,11 @@ button:disabled {
 }
 
 .main__hr {
-    margin: 0 20rem 4rem 20rem;
+    width: 45rem;
+    margin-bottom: 4rem;
+    //margin: 0 29rem 4rem 29rem;
+
+    @media (max-width: $desktop-breakpoint) {
+        margin-bottom: 2rem;
+    }
 }

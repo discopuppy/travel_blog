@@ -1,22 +1,23 @@
-/* .header__background {
-    height: 10rem;
-    display: flex;
-    background-image: url("/images/background.jpg");
-    background-size: cover;
-} */
-
 .header__container {
     display: flex;
-    justify-content: space-between;
-    margin: 1rem 2rem 1rem 2rem;
+    //justify-content: space-between;
+    margin: 1rem 2rem 0 2rem;
     //border: 1px black solid;
+
+    @media (max-width: $desktop-breakpoint) {
+        margin: .5rem .5rem 0 .5rem;
+    }
 }
 
 .header__menuContainer {
     display: flex;
     padding-top: 2rem;
-    //width: 20%;
+    width: 20%;
     //border: 1px black solid;
+
+    @media (max-width: $desktop-breakpoint) {
+        padding-top: 1rem;
+    }
 }
 
 .header__menu {
@@ -27,6 +28,20 @@
     //margin-top: 2rem;
     font-size: 125%;
     //border: 1px black solid;
+
+    @media (max-width: $desktop-breakpoint) {
+        font-size: 95%;
+
+        img {
+            height: 24px;
+            width: 24px;
+            //margin-bottom: 1rem;
+        }
+
+        span {
+            display: none;
+        }
+    }
 }
 
 .popover {
@@ -52,7 +67,7 @@
 
 .header__logo {
     text-align: center;
-    //width:60%;
+    width:60%;
     //font-weight: 500;
     padding-top: 1rem;
     //color: blue;
@@ -61,6 +76,11 @@
     span {
         font-family: Papyrus, fantasy;
         font-size: 44px;
+
+        @media (max-width: $desktop-breakpoint) {
+            font-size: 30px;
+            //margin-top: 6rem;
+        }
     }
 
 }
@@ -71,10 +91,27 @@
     //padding-right: 30px;
     padding-top: 2rem;
     //border-left: 1px solid black;
-    //width: 20%;
+    width: 20%;
     //border: 1px black solid;
+
+    @media (max-width: $desktop-breakpoint) {
+        padding-top: 1.7rem;
+
+        img {
+            height: 12px;
+            width: 12px;
+        }
+
+        .facebook {
+            display: none;
+        }
+    }
 }
 
 .socialWidget {
     margin: 3px;
+
+    @media (max-width: $desktop-breakpoint) {
+        margin: 1px;
+    }
 }

@@ -14,6 +14,7 @@ const AppRouter = () => ( // Client-Side Routing
     <Router history={history}>
         <div>
             <Header history={history}/>
+            <hr  className="main__hr" />
             <Switch>
                 <Route path="/" component={HomePage} exact={true}/>
                 <Route path="/articles" component={ArticlesPage} />
@@ -24,7 +25,5 @@ const AppRouter = () => ( // Client-Side Routing
         </div>
         </Router>
 );
-
-//<hr className="main__hr" />
 
 export default AppRouter;

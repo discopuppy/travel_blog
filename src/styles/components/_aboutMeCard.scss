@@ -2,6 +2,12 @@
     display: flex;
     justify-content: space-around;
     //border: 1px black solid;
+
+    @media (max-width: 50rem) {
+        display: block;
+        align-content: center;
+        text-align: center;
+    }
 }
 
 .aboutMeCard__text {
@@ -9,6 +15,10 @@
     //border: 1px black solid;
     max-width: 400px;
     margin: 3rem 0;
+
+    @media (max-width: 50rem) {
+        align-content: center;
+    }
 
     .top {
         margin-top: 45px;
@@ -33,4 +43,11 @@
     margin-left: 4rem;
     height: 350px;
     width: 465px;
+
+    @media (max-width: 50rem) {
+        align-content: center;
+        height: 210px;
+        width: 275px;
+        margin-left: 0;
+    }
 }

@@ -10,10 +10,10 @@ const HomePage = () => (
     <div>
         <Slider />
         {/*<ArticleCard />*/}
-        <QuoteCard />
+        <AboutMeCard />
         <CardGroup />
         <TweetMe />
-        <AboutMeCard />
+        <QuoteCard />
     </div>
 );
 

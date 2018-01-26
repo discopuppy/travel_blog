@@ -45,7 +45,7 @@ class Menu extends React.Component {
             className="header__menu"
           >
             <img src="/images/menubars.png" width='22px' height='22px' style={{}} />
-            <div style={{ }}>Menu</div>
+            <div><span>Menu</span></div>
           </div>
           {this.state.popupVisible && (
             <div className="popover">
