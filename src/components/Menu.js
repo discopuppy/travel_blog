@@ -40,12 +40,13 @@ class Menu extends React.Component {
             className="noneYet"
             ref={node => { this.node = node }}
         >
-          <h3
+          <div
             onClick={this.handleClick}
             className="header__menu"
           >
-            Menu
-          </h3>
+            <img src="/images/menubars.png" width='22px' height='22px' style={{}} />
+            <div style={{ }}>Menu</div>
+          </div>
           {this.state.popupVisible && (
             <div className="popover">
               <Link to="/" onClick={this.handleClick}>Home</Link>

@@ -10,7 +10,7 @@ const Header = (props) => (
                 {/*<h3>Menu</h3>*/}
             </div>
             <div className="header__logo">
-                Louisiana Jones
+                <span>Louisiana Jones</span>
             </div>
             <div className="header__socialWidgets">
                 <span className="socialWidget"><a href="url"><img src="/images/facebook.png" height="20px" width="20px"/></a></span>

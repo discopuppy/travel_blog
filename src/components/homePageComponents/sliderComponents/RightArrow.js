@@ -3,7 +3,7 @@ import React from 'react';
 const RightArrow = (props) => {
     return (
         <div onClick={props.nextSlide}>
-            <img src="/images/rightarrow.png" className="nextArrow"/>
+            <img src="/images/whiterightarrow.png" className="nextArrow"/>
         </div>
     );
 }
